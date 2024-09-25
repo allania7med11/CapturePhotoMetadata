@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Upload with Metadata</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+</head>
+<body>
+
+  <h1>Photo Upload3 with Metadata</h1>
+
+  <!-- File input for selecting image from gallery or capturing from the camera -->
+  <input type="file" accept="image/*" capture="camera" id="fileInput">
+
+  <div>
+    <h2>Preview</h2>
+    <img id="preview" src="#" alt="Image Preview" class="preview-image" />
+  </div>
+
+  <div id="metadataDisplay">
+    <h2>Metadata</h2>
+    <ul id="metadataList"></ul>
+  </div>
+
+  <button id="uploadButton" class="upload-btn">Upload to Cloudinary</button>
+
+  <p id="status"></p>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

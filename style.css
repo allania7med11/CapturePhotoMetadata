@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    display: none;
+  }
+  
+  .upload-btn {
+    display: none;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #status {
+    margin-top: 10px;
+  }
+  
+  #metadataDisplay {
+    margin-top: 20px;
+  }
+  
